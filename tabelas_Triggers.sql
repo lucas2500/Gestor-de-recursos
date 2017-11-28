@@ -1,0 +1,77 @@
+CREATE TABLE saidaFrances(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+);
+
+CREATE TABLE saidaDoceComprido(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+
+);
+
+CREATE TABLE saidaDoceCortado(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+);
+
+CREATE TABLE saidaDoceEnrolado(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+);
+
+CREATE TABLE saidaBrote(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+
+);
+
+CREATE TABLE saidaCarteira(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+
+);
+
+CREATE TABLE saidaSeda(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+
+);
+
+CREATE TABLE saidaCrioulo(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+
+);
+
+CREATE TABLE saidaBolinha(
+
+tipoProduto VARCHAR(100),
+ID INT PRIMARY KEY AUTO_INCREMENT
+
+);
+
+SELECT * FROM saidaFrances;
+
+SELECT * FROM saidaDoceComprido;
+
+SELECT * FROM saidaDoceCortado;
+
+SELECT * FROM saidaDoceEnrolado;
+
+SELECT * FROM saidaBrote;
+
+SELECT * FROM saidaBolinha;
+
+SELECT * FROM saidaCarteira;
+
+SELECT * FROM saidaSeda;
+
+SELECT * FROM saidaCrioulo;
